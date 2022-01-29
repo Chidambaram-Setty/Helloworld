@@ -1,0 +1,485 @@
+/* Style sheet created by: Chidambaram Setty */
+
+body {
+	  background-color: #4863A0;
+}
+.dropbtn {
+     font : bold;
+  	 background-color: #E5E4E2;
+	 border-radius: 2em; 
+	 list-style-type: none;
+	 margin: 0.3em;
+	 padding: 1em;
+	 margin-top: 0.5em; 
+	 margin-bottom: 0.5em;
+}
+
+.logo {
+width: 80px;
+height:15vh;
+margin-top:20px;
+display: inline;
+float:left;
+border-bottom: 0;
+border-top: 0;
+}
+
+.menu{
+	width: 90%;
+	list-style: none;
+	float: left;
+	padding: px;
+	display: inline;
+}
+
+.menu li{
+	color: #000;
+	font-size: 15px;
+	float: left;
+	padding: 2px;
+	border-style: solid;
+	border-color: #69bceb;
+	border-radius: 5px;
+	margin: 0.5em;
+	list-style-type: none;
+	width: 12%;
+	text-align: center;
+}
+
+.menu li:hover{
+	background: #1e3e80;
+	border-style: solid;
+	border-color: #778899;
+}
+
+.menu li:hover a{
+	color: #fff;
+	font-size: 18px;
+}
+.menu li a{
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	transition: 0.5s all;
+}
+
+/* Dropdown for products navigation button */
+	
+	nav {
+	font-family: Georgia,"Times New Roman",	serif;
+	font-size: 3.25 em;
+	font-weight: bold;
+	text-align: center;
+	overflow: hidden;
+	}
+
+	nav a {
+		font-size: 16px;
+		text-align: center;
+		text-decoration: none;
+	}
+	
+	nav li {
+	background-color: .ffffff;
+	list-style-type: none;
+	font-size:48px;
+	border-radius:0.4em;
+	text-align:center;
+	border-style: solid;
+    border-color: .92a8d1;
+	padding-top:0.2em;
+	display:block;
+	}
+	
+	 nav li a{
+		
+	list-style-type: none;
+	text-decoration:none;
+	text-align:center;
+	color:.5271ff;
+	padding:30px;
+}
+
+	.dropdown {
+		float:left;
+		overflow: hidden;
+	}
+
+	.dropdown .dropbtn {
+	font-family: Georgia,"Times New Roman",	serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	
+	}
+
+  .dropdown:hover .dropbtn {
+		background-color: #f9f9f9;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+
+	.dropdown-content a {
+		float: none;
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+/* Style to create a fluid image */
+img {
+     max-width: 100%;
+	 border-bottom: solid 0.1em #4863A0;
+	 border-top: solid 0.1em #4863A0;
+}
+/* Styles for Mobile Layout */ 
+
+/* Style for container centers the page and sets the element width */ 
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+input, select, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+select {
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4863A0;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* Style rule for label element */
+ label {
+	 display: block; 
+ }
+ /* Style rule for unordered list within a form */
+ form ul {
+	 list-style-type: none;
+ }
+ 
+ /* Style rule for chkbx class */
+ .chkbx {
+	 display: inline-block;
+ }
+ .rad {
+	 display: inline-block;
+ }
+ 
+/* Style for the header specifies top margin, background color, rounded corners, and center aligns content*/ 
+header {
+    margin-top: 0.2em;
+	background-color: #FFFFFF;
+	border-radius: 0.5em;
+	text-align: center;
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: Georgia,"Times New Roman",	serif;
+	font-size: 1.25 em;
+	font-weight: bold;
+	
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	 padding: 0;
+	 margin-top: 0.5em; 
+	 margin-bottom: 0.5em;
+	 text-align: center;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+	 background-color: #E5E4E2;
+	 border-radius: 2em; 
+	 list-style-type: none;
+	 margin: 0.3em;
+	 padding: 1em;	
+}
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	color: #000000;
+	text-decoration: underline;
+}
+
+/* Style displays the mobile class */
+.mobile {
+	display: inline;
+	padding: 1em;
+	
+}
+
+/* Style hides the desktop class*/
+.desktop {
+	padding: 1em;
+	border-top: solid 0.1em #4863A0; 
+	border-bottom: solid 0.1em #4863A0;
+}
+.desktop1 {
+	padding: 3em;
+	border-top: solid 0.1em #4863A0; 
+	border-bottom: solid 0.1em #4863A0;
+	float: left;
+}
+.desktop2 {
+	border-top: solid 0em #4863A0; 
+	border-bottom: solid 0em #4863A0;
+	display:inline-block;
+	padding: 1.4em;
+}
+
+.footer {
+    padding-top: 0.5em;
+    float: right;
+	margin-top:2em;
+}
+
+
+/*Style for the main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */
+main {
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em; 
+	margin-top: 0.5em;		
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #FFFFFF; 
+	border-top: solid 0.2em #4863A0; 
+	border-bottom: solid 0.2em #4863A0;
+
+}
+
+/* Style for footer specifies font size, text alignment, and top margin */ 
+footer {
+	font-size: .70em;
+	text-align: center; 
+	margin-top: 2em;
+}
+
+.equip {
+	float: left;
+	padding-right: 20px;
+}
+/* Style hides the tablet class */
+ .tablet {
+	 display: none;
+ }
+/* Style rule specifies to not display the equip class */ 
+.equip {
+	display: none;
+}
+ul {
+	margin-bottom: 50px;
+	list-style-position: inside;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	padding-bottom: 20px;
+}
+
+/* Media query for desktop viewport targets screens with a minimum width of 830px. */
+
+@media only screen and (min-width: 830px) {
+	
+/* Style specifies a width for container */
+#container {
+		width: 80%;
+}
+
+/* Style specifies margin and padding for the unordered list within the nav */
+nav ul {
+	margin: 1%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+nav li {
+	display: inline;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 3em;
+	padding-right: 0;
+	width: 100%;
+}
+
+/* Style for navigation list items specifies a border radius, border, margin, width, and padding */
+nav li {
+	border-radius: 2em;
+	border-top: solid #000000;
+	border-bottom: solid #000000;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	width: 50%;
+}
+
+/* Style for navigation links specifies display and padding */
+nav li a {
+		display: inline-block;
+		padding: 2em;
+}
+
+/* Style rules for pseudo-classes */
+nav li a:link {
+	color: #000000;
+}
+
+nav li a:visited {
+	color: #000000;
+}
+
+nav li a:hover {
+	color: #56A5EC;
+	font-style: italic;
+}
+
+/* Style specifies border, shadow, margin, and padding for main element */
+main {
+	border-style: none;
+	box-shadow: 0.5em 0.5em 0.5em #404040;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+/* Style specifies left and right padding for paragraph elements within the main element */
+main p {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+/* Style specifies a bottom margin for the items class */
+.desktop ul, li{
+	margin-bottom: 1em;
+	padding: 1px;
+	margin-left: 8em;
+	text-decoration: none;
+	display:square;
+}
+
+}
+
+.items{
+	float:left;
+}
+
+body {
+	background: -moz-linear-gradient(#4863A0, #98AFC7); /* Firefox */
+	background: -o-linear-gradient(#4863A0, #98AFC7); /* Opera */
+	background: -webkit-linear-gradient(#4863A0, #98AFC7); /* Chrome, Safari */
+	background: linear-gradient(#4863A0, #98AFC7);
+	background-attachment: fixed;
+}
+	
+@media only screen and (min-width:481px) and (max-width:829px) {
+	
+/* Style specifies a width for container */
+#container {
+		width: 100%;
+		margin-left:auto;
+		margin-right:auto;
+}
+
+
+/* Style specifies margin and padding for the unordered list within the nav */
+nav ul {
+	margin: 1%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+nav li {
+	display: inline;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 2em;
+	padding-right: 2em;
+	width: 100%;
+}
+
+/* Style for navigation list items specifies a border radius, border, margin, width, and padding */
+nav li {
+	border-radius: 2em;
+	border-top: solid #000000;
+	border-bottom: solid #000000;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: 0;
+	width: 100%;
+}
+
+/* Style for navigation links specifies display and padding */
+nav li a {
+		display: inline-block;
+		padding: 2em;
+}
+
+/* Style rules for pseudo-classes */
+nav li a:link {
+	color: #000000;
+}
+
+nav li a:visited {
+	color: #000000;
+}
+
+nav li a:hover {
+	color: #56A5EC;
+	font-style: italic;
+}
+
+/* Style specifies border, shadow, margin, and padding for main element */
+main {
+	border-style: none;
+	box-shadow: 0.5em 0.5em 0.5em #404040;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+/* Style specifies left and right padding for paragraph elements within the main element */
+main p {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+/* Style specifies a bottom margin for the items class */
+.desktop ul, li{
+	margin-bottom: 1em;
+	padding: 1px;
+	margin-left: 2em;
+	text-decoration: none;
+	display:square;
+}
+
+
+}

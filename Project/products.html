@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+<title> Json example </title>
+<link rel="stylesheet" type="text/css" href="table.css">
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+	<script type="text/javascript" src="js/jquery.highlight.js"></script>
+	<script type="text/javascript" src="js/highlightMenu.js"></script>
+
+
+	
+</head>
+<body>
+<header>
+<div class="new2">
+			<a href="index.html"><img src="images/pillowed.png" class="logo" alt="Logo image" style="float:left;" ></a>
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html" >About</a></li>
+				<li><a href="team.html" >Our Team</a></li>
+				<li><a href="specials.html" >Specials</a></li>
+				<li><a href="training.html" >Training</a></li>
+				<li><a href="media.html" >Media </a></li>
+				<li><a href="contact.html" >Contact us</a></li>
+			</ul>
+			</div>
+</header>
+<div class= "new">
+<table id = "emp_tab">    
+      <tr class="pro">      
+          <th >Name</th>
+          <th>Stock</th>
+          <th>Quantity</th>
+          <th>Size</th> 
+          <th>Color</th>
+      </tr>  
+</table>
+</div>
+
+<script>
+	$(document).ready(function(){
+    $.getJSON("pillow.json", function(data){
+		var emp_data = ' ';
+        $.each(data, function(key, value){
+                    emp_data += '<tr>';
+					emp_data += '<td>' +value.name+ '</td>'; 
+                    emp_data += '<td>' +value.stock+ '</td>' + ' ';
+                    emp_data += '<td>' +value.quantity+ '</td>';
+					emp_data += '<td>' +value.size+ '</td>';
+					emp_data += '<td>' +value.colour+ '</td>';
+					emp_data += '<tr>';
+            });
+			$('#emp_tab').append(emp_data);
+        }); 
+    });
+</script>
+
+	
+</body>
+</html>
+
+

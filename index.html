@@ -110,15 +110,6 @@ img {vertical-align: middle;}
 
 	<script>
 	$(document).ready(function(){
-	$.getJSON('https://api.unsplash.com/photos/?client_id=U6kdRSemCjS3yWzeASra3AVv95dsZqqxkqu5KjwsZKg', function(data)  {
-  	console.log(data);
-  	$.each(data, function(index,value) {
-    
-   	
-    	var imageURL = value.urls.regular;
-    	$('.mySlides fade img').attr('src', imageURL);
-    
-  })});
     	var searchTerm;
     	$("#btnSearch").click(function() {
 			
@@ -181,19 +172,19 @@ img {vertical-align: middle;}
 	<div class="slideshow-container">
 		<div class="mySlides fade">
 			<div class="numbertext">1 / 3</div>
-			<img src="" style="width:100%">
+			<img src="images/pexel1.jpg" style="width:100%">
 			<div class="text">Best Throw pillow collection</div>
 		</div>
 
 		<div class="mySlides fade">
 			<div class="numbertext">2 / 3</div>
-			<img src="" style="width:100%">
+			<img src="images/media_image_1.jpg" style="width:100%">
 			<div class="text">Bed Pillows</div>
 		</div>
 
 		<div class="mySlides fade">
 		  <div class="numbertext">3 / 3</div>
-		  <img src="" style="width:100%">
+		  <img src="images/media_image_2.jpg" style="width:100%">
 		  <div class="text">Plush Pillows</div>
 		</div>
 
